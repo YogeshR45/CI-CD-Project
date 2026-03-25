@@ -12,7 +12,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/YogeshR45/Full-CICD-Project.git'
+                    url: 'https://github.com/YogeshR45/CI-CD-Project.git'
             }
         }
         stage('Build Docker Image') {
